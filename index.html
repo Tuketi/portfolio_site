@@ -1,0 +1,62 @@
+<!doctype html>
+<html ng-app='portfolioApp'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1'>
+	<title>Abbee Hughes</title>
+		<link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+		<link href="http://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
+		<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.js"></script>
+	<script src="js/angular/angular-route.js"></script>
+	<script src="js/app.js"></script>
+	
+</head>
+<body ng-controller='projectListCtrl'>
+
+	<header>
+	<div class='nav_cont'>
+		<div class='logo'>abbee hughes</div>
+		<nav>
+			<ul>
+				<li><a href='#/'>web work</a></li>
+				<li><a href='#/art'>art</a></li>
+				<li><a href='#/about'>about</a></li>
+				<li><a href='#/contact'>contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	</header>
+
+<div class='overall_cont'>
+
+	<div id='cont' ng-view></div>
+
+</div>
+
+<footer>
+	<div class='nav_cont'>
+	<ul class='list_above'>
+		<li><h3>Hire Me</h3>
+			Currently seeking full-time employment<br>
+			in the local web development industry.</li>
+		<li><h3>Contact Me</h3>
+			<b>e:</b> gutentag@abbeehughes.com<br>
+			<b>p:</b> 226-700-8755</li>
+		<li><h3>Find Me</h3>
+			<a href='http://www.linkedin.com/pub/abbee-hughes/21/6b2/a3'>
+				<img src='./images/icons/li.png' alt='linkedin icon'></a>
+			<a href='https://twitter.com/Tuketi'>
+				<img src='./images/icons/twitter.png' alt='twitter icon'></a>
+			<a href='https://www.facebook.com/Tuketi'>
+				<img src='./images/icons/facebook.png' alt='facebook icon'></a></li>
+	</ul>
+
+	<hr>
+	<span class='list_below'>&copy; 2014 Abbee Hughes</span>
+	</div>
+</footer>
+
+</body>
+</html>

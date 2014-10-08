@@ -1,0 +1,287 @@
+/* line 1, ../scss/_reset.scss */
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 10, ../scss/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2,
+h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, font, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt,
+var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody, tfoot, thead,
+tr, th, td {
+  margin: 0 0;
+  padding: 0 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+}
+
+/* line 17, ../scss/_reset.scss */
+body {
+  line-height: 1.0em;
+}
+
+/* line 20, ../scss/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 23, ../scss/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 29, ../scss/_reset.scss */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* line 33, ../scss/_reset.scss */
+:focus {
+  outline: 0;
+}
+
+/* line 36, ../scss/_reset.scss */
+ins {
+  text-decoration: none;
+}
+
+/* line 39, ../scss/_reset.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 42, ../scss/_reset.scss */
+textarea {
+  resize: none;
+}
+
+/* line 45, ../scss/_reset.scss */
+legend {
+  display: none;
+}
+
+/* line 11, ../scss/main.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 15, ../scss/main.scss */
+input[type=text], input[type=submit], textarea {
+  border: 1px solid #1f2024;
+  font-family: "Oswald", sans-serif;
+  font-size: 120%;
+  min-width: 50%;
+  padding: 15px;
+}
+
+/* line 22, ../scss/main.scss */
+input[type=submit] {
+  background-color: #97b23e;
+  color: #ededeb;
+}
+
+/* line 29, ../scss/main.scss */
+body {
+  background-color: #1f2024;
+}
+/* line 32, ../scss/main.scss */
+body a:link, body a:active, body a:visited {
+  color: #97b23e;
+  text-decoration: none;
+}
+
+/* line 38, ../scss/main.scss */
+.nav_cont {
+  margin: 0px auto;
+  max-width: 1400px;
+}
+
+/* line 43, ../scss/main.scss */
+nav {
+  float: right;
+}
+/* line 48, ../scss/main.scss */
+nav ul li {
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 5px;
+}
+/* line 54, ../scss/main.scss */
+nav ul li a:link, nav ul li a:active, nav ul li a:visited {
+  color: #97b23e;
+  font-family: "Oswald", sans-serif;
+  font-size: 100%;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* line 65, ../scss/main.scss */
+header {
+  background-color: #1f2024;
+  margin: 0px;
+  padding: 20px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+/* line 74, ../scss/main.scss */
+footer {
+  background-color: #1f2024;
+  clear: both;
+  color: #97b23e;
+  font-family: "Oswald", sans-serif;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+/* line 83, ../scss/main.scss */
+footer .list_above {
+  display: inline-block;
+  list-style: none;
+  margin: 5px auto;
+  width: 70%;
+}
+/* line 89, ../scss/main.scss */
+footer .list_above li {
+  color: #ededeb;
+  float: left;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 90%;
+  line-height: 20px;
+  padding-left: 20px;
+  text-align: left;
+  width: 33%;
+}
+/* line 98, ../scss/main.scss */
+footer .list_above li h3 {
+  color: #97b23e;
+  font-family: "Oswald", sans-serif;
+  font-size: 120%;
+}
+/* line 103, ../scss/main.scss */
+footer .list_above li img {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+/* line 109, ../scss/main.scss */
+footer .list_below {
+  display: block;
+  text-align: right;
+  width: 100%;
+}
+
+/* line 116, ../scss/main.scss */
+hr {
+  background: #97b23e;
+  border: 0px;
+  height: 1px;
+}
+
+/* line 122, ../scss/main.scss */
+#cont {
+  margin: 10px auto;
+  margin-top: 75px;
+  max-width: 1200px;
+}
+
+/* line 128, ../scss/main.scss */
+.overall_cont {
+  background-color: #ededeb;
+  display: inline-block;
+  width: 100%;
+}
+
+/* line 134, ../scss/main.scss */
+.logo {
+  color: #97b23e;
+  float: left;
+  font-family: "Marck Script", cursive;
+  font-size: 200%;
+}
+
+/* line 141, ../scss/main.scss */
+h2 {
+  color: #97b23e;
+  font-family: "Marck Script", cursive;
+  font-size: 200%;
+  margin-top: 10px;
+}
+
+/* line 148, ../scss/main.scss */
+.left_column {
+  float: left;
+  height: 100%;
+  overflow: hidden;
+  padding: 10px;
+  padding-top: 5px;
+  width: 75%;
+}
+/* line 156, ../scss/main.scss */
+.left_column p {
+  color: #1f2024;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 90%;
+  font-weight: 200;
+  margin-top: 5px;
+  text-align: justify;
+}
+/* line 165, ../scss/main.scss */
+.left_column img {
+  max-width: 100%;
+}
+
+/* line 170, ../scss/main.scss */
+.right_column {
+  float: right;
+  font-family: "Ubuntu", sans-serif;
+  width: 25%;
+}
+/* line 175, ../scss/main.scss */
+.right_column ul {
+  list-style: none;
+}
+/* line 178, ../scss/main.scss */
+.right_column ul li {
+  float: left;
+  margin: 5px;
+}
+/* line 184, ../scss/main.scss */
+.right_column p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* line 190, ../scss/main.scss */
+.nav-font {
+  font-family: "Oswald", sans-serif;
+}
+
+/* line 194, ../scss/main.scss */
+.middle {
+  margin: 0px auto;
+  margin-top: 25px;
+  padding: 25px;
+  text-align: center;
+  width: 80%;
+}
+/* line 201, ../scss/main.scss */
+.middle p {
+  color: #1f2024;
+  font-family: "Ubuntu", sans-serif;
+  margin: 10px;
+  text-align: justify;
+}
+
+/* line 209, ../scss/main.scss */
+.big_pic {
+  margin: 0px auto;
+}

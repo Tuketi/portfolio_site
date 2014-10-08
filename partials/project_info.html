@@ -1,0 +1,15 @@
+<div class='left_column'>
+	<img src='{{project_info.project_pic}}' class='big_pic'>
+	<h2>{{project_info.project_name}}</h2>
+	<p ng-bind-html='project_info.project_brief'></p>
+</div>
+
+<div class='right_column'>
+	<ul>
+		<li ng-repeat='project in projects | orderBy:orderProj:reverse'>
+			<a href='#/projects/{{project.project_id}}/{{project.art_flag}}'>
+				<img ng-src='{{project.project_thumb}}' alt='{{project.project_name}}'>
+			</a>
+		</li>
+	</ul>
+</div>
